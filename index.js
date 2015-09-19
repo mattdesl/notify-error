@@ -5,7 +5,7 @@ function notify (msg) {
   if (!msg) return
   notifier.notify({
     title: '⚠️ error',
-    sound: true,
+    sound: 'Frog',
     message: msg
   })
 }
