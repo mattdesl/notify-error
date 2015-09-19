@@ -27,7 +27,7 @@ npm install notify-error -g
 notify-error 'Syntax Error!'
 
 # with stdin
-cat README.md | notify-error
+notify-error < README.md
 ```
 
 ## Usage
