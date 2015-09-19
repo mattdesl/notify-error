@@ -46,11 +46,23 @@ If no message is specified, no alert will be shown.
 
 The CLI will also print the error message to `stdout`.
 
+#### config
+
+You can add a `.notify-errorrc` file in your application or user path if you feel like configuring the defaults. Example for OSX users:
+
+`~/.notify-errorrc`
+
+```json
+{
+  "sound": "Funk"
+}
+```
+
 ### API
 
-#### `notify(msg)`
+#### `notify(msg, [opt])`
 
-Alerts with the specified `msg` string.
+Alerts with the specified `msg` string and `opt` which get passed to [node-notifier](https://www.npmjs.com/package/node-notifier).
 
 ## License
 
