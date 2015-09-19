@@ -1,0 +1,49 @@
+{
+  "name": "notify-error",
+  "version": "1.0.0",
+  "description": "send an error notifications",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "get-stdin": "^5.0.0",
+    "node-notifier": "^4.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "notify",
+    "exit",
+    "code",
+    "zero",
+    "non",
+    "notifier",
+    "error",
+    "errs",
+    "err",
+    "pop",
+    "up",
+    "alert",
+    "terminal",
+    "shell",
+    "command",
+    "line"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/notify-error.git"
+  },
+  "homepage": "https://github.com/mattdesl/notify-error",
+  "bugs": {
+    "url": "https://github.com/mattdesl/notify-error/issues"
+  },
+  "bin": {
+    "notify-error": "./bin/cmd.js"
+  }
+}
