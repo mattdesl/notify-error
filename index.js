@@ -4,7 +4,7 @@ module.exports = notify
 function notify (msg) {
   if (!msg) return
   notifier.notify({
-    title: "⚠️ error",
+    title: '⚠️ error',
     sound: true,
     message: msg
   })
