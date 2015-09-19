@@ -44,6 +44,8 @@ Usage:
 
 If no message is specified, no alert will be shown.
 
+The CLI will also print the error message to `stdout`.
+
 ### API
 
 #### `notify(msg)`
